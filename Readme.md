@@ -23,12 +23,12 @@ cd triangle-calculator
 
 2. Build the Docker image:
 ```bash
-docker build -t triangle-calculator .
+docker build -t triangle-classification .
 ```
 
 3. Run the container:
 ```bash
-docker run -d -p 8000:80 triangle-calculator
+docker run -d -p 8000:80 triangle-classification
 ```
 
 4. Access the application:
