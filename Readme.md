@@ -1,4 +1,4 @@
-# Triangle Classification Program (โปรแกรมจำแนกสามเหลี่ยม)
+# Triangle Classification Program
 
 A web-based application that classifies triangles based on their side lengths. The program can identify different types of triangles including equilateral, isosceles, scalene, and right triangles.
 
@@ -6,24 +6,18 @@ A web-based application that classifies triangles based on their side lengths. T
 
 - Input validation for triangle side lengths
 - Classification of triangles into the following types:
-  - สามเหลี่ยมด้านเท่า (Equilateral Triangle)
-  - สามเหลี่ยมหน้าจั่ว (Isosceles Triangle)
-  - สามเหลี่ยมด้านไม่เท่า (Scalene Triangle)
-  - สามเหลี่ยมมุมฉาก (Right Triangle)
+  - Equilateral Triangle
+  - Isosceles Triangle
+  - Scalene Triangle
+  - Right Triangle
 - Error handling for invalid inputs
 - Responsive design
-- Thai language interface
-
-## Technical Requirements
-
-- Docker
-- Web browser with JavaScript enabled
 
 ## Installation and Running
 
 1. Clone the repository:
 ```bash
-git clone [repository-url]
+git clone https://github.com/NineWP/IT-entre-Triangle-classification.git
 cd triangle-calculator
 ```
 
@@ -34,11 +28,11 @@ docker build -t triangle-calculator .
 
 3. Run the container:
 ```bash
-docker run -d -p 8080:80 triangle-calculator
+docker run -d -p 8000:80 triangle-calculator
 ```
 
 4. Access the application:
-Open your web browser and navigate to `http://localhost:8080`
+Open your web browser and navigate to `http://localhost:8000`
 
 ## Usage
 
