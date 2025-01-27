@@ -89,7 +89,7 @@ class TriangleCalculator {
         
         if (!validation.isValid) {
             this.resultDiv.textContent = validation.errorMsg;
-            this.resultDiv.classList.add('error');
+            this.resultDiv.classList.add('error'); 
             
             // Only add error class to invalid inputs
             const inputs = [this.side1Input, this.side2Input, this.side3Input];

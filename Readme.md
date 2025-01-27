@@ -6,7 +6,7 @@ A web-based application that classifies triangles based on their side lengths. T
 
 - Input validation for triangle side lengths
 - Classification of triangles into the following types:
-  - Equilateral Triangle
+  - Equilateral Triangle 
   - Isosceles Triangle
   - Scalene Triangle
   - Right Triangle
