@@ -17,7 +17,7 @@ A web-based application that classifies triangles based on their side lengths. T
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/NineWP/IT-entre-Triangle-classification.git
+git clone https://github.com/Morninguoou/IT-entre-Triangle-classification.git
 cd triangle-calculator
 ```
 
